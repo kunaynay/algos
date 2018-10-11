@@ -1,14 +1,11 @@
 const binarySearch = (arr, key) => {
   //sort array
   let newArr = arr.sort((a, b) => a - b);
-  console.log(newArr);
 
   let mid = 0;
   // Setting initial low and high values
   let low = 0;
   let high = newArr.length - 1;
-  console.log(low, high);
-
   //Going over array to see if thesearched term is found
   while (low <= high) {
     //setting mid variable
